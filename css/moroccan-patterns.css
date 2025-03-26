@@ -1,0 +1,214 @@
+/* Moroccan Pattern Styles */
+.moroccan-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    background-image: url('../assets/images/moroccan-pattern.png');
+    background-repeat: repeat;
+    z-index: 1;
+}
+
+.geometric-pattern {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.pattern-element {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--gradient-primary);
+    opacity: 0.1;
+    transform-origin: center;
+}
+
+.pattern-element:nth-child(1) {
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    transform: rotate(0deg);
+}
+
+.pattern-element:nth-child(2) {
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    transform: rotate(45deg);
+}
+
+.pattern-element:nth-child(3) {
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    transform: rotate(90deg);
+}
+
+/* Section Dividers */
+.section-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.divider-dot {
+    width: 8px;
+    height: 8px;
+    background: var(--accent-color);
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+}
+
+.divider-line {
+    width: 100px;
+    height: 2px;
+    background: var(--gradient-primary);
+}
+
+/* Decorative Elements */
+.decorative-border {
+    position: relative;
+    padding: 2rem;
+}
+
+.decorative-border::before,
+.decorative-border::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: var(--gradient-primary);
+    opacity: 0.1;
+}
+
+.decorative-border::before {
+    top: 0;
+    left: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.decorative-border::after {
+    bottom: 0;
+    right: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+/* Moroccan-inspired Card Styles */
+.moroccan-card {
+    position: relative;
+    background: var(--white);
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+    overflow: hidden;
+}
+
+.moroccan-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--gradient-primary);
+    opacity: 0.05;
+    z-index: 0;
+}
+
+.moroccan-card > * {
+    position: relative;
+    z-index: 1;
+}
+
+/* Animated Background Patterns */
+.animated-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 
+        radial-gradient(circle at 20% 20%, var(--primary-color) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, var(--secondary-color) 0%, transparent 50%);
+    opacity: 0.1;
+    animation: patternMove 20s linear infinite;
+}
+
+@keyframes patternMove {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+/* Moroccan-inspired Button Styles */
+.moroccan-btn {
+    position: relative;
+    padding: 0.8rem 2rem;
+    background: var(--gradient-primary);
+    color: var(--white);
+    border: none;
+    border-radius: 2rem;
+    font-weight: 500;
+    overflow: hidden;
+    transition: var(--transition-fast);
+}
+
+.moroccan-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.2),
+        transparent
+    );
+    transition: var(--transition-normal);
+}
+
+.moroccan-btn:hover::before {
+    left: 100%;
+}
+
+/* Decorative Text Styles */
+.moroccan-text {
+    font-family: 'Amiri', serif;
+    position: relative;
+    display: inline-block;
+}
+
+.moroccan-text::before,
+.moroccan-text::after {
+    content: '❁';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--accent-color);
+    opacity: 0.5;
+}
+
+.moroccan-text::before {
+    left: -2rem;
+}
+
+.moroccan-text::after {
+    right: -2rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .decorative-border {
+        padding: 1rem;
+    }
+    
+    .moroccan-text::before,
+    .moroccan-text::after {
+        display: none;
+    }
+} 
