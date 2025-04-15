@@ -1,0 +1,73 @@
+
+{
+  "meta": {
+    "title": "Mohammed Boussardi | Développeur Oracle APEX & Fintech",
+    "description": "Développeur de logiciels spécialisé dans Oracle APEX, PL/SQL, Python, C++, Java, JavaScript et l'automatisation avec UiPath. Expert en systèmes fintech et tuteur de programmation en ligne.",
+    "keywords": "portfolio de développeur de logiciels, tuteur de programmation en ligne, développeur Oracle APEX, expert PL/SQL, tuteur Python en ligne, aide à la programmation C++, développeur Java freelance, expert SQL pour fintech, développeur d'automatisation avec UiPath"
+  },
+  "header": {
+    "about": "À Propos",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "testimonials": "Témoignages",
+    "contact": "Contact",
+    "hireMe": "Engagez-moi"
+  },
+  "hero": {
+    "title": "Mohammed Boussardi",
+    "subtitle": "Développeur d'Automatisation & Fintech",
+    "description": "Spécialisé dans Oracle APEX, PL/SQL, Python et solutions d'automatisation pour les systèmes fintech.",
+    "hireMe": "Engagez-moi",
+    "viewProjects": "Voir les Projets",
+    "downloadResume": "Télécharger CV"
+  },
+  "about": {
+    "title": "À Propos de Moi",
+    "paragraph1": "Je suis un développeur de logiciels passionné avec plus de 5 ans d'expérience dans la création de solutions d'automatisation efficaces et d'applications fintech robustes. Mon expertise couvre Oracle APEX, PL/SQL, Python, C++, Java et JavaScript.",
+    "paragraph2": "Au-delà du développement, je me consacre au partage de connaissances en tant que tuteur de programmation en ligne, aidant les autres à maîtriser les technologies qui me passionnent. Mon approche pédagogique combine expérience pratique et explications claires pour rendre accessibles des concepts complexes.",
+    "paragraph3": "Je crois en la création de logiciels qui non seulement répondent aux exigences techniques, mais offrent également des expériences utilisateur exceptionnelles. Que je construise un système financier, automatise des processus avec UiPath ou enseigne les fondamentaux de la programmation, j'apporte créativité, précision et une approche de résolution de problèmes à tout ce que je fais."
+  },
+  "skills": {
+    "title": "Mes Compétences",
+    "subtitle": "Un ensemble complet de compétences techniques et d'expertise de domaine que j'ai développées tout au long de ma carrière",
+    "categories": {
+      "programming": "Langages de Programmation",
+      "database": "Base de Données & Oracle",
+      "automation": "Automatisation & DevOps",
+      "domain": "Expertise de Domaine"
+    }
+  },
+  "projects": {
+    "title": "Projets en Vedette",
+    "subtitle": "Présentation de mes projets récents et contributions en fintech et automatisation",
+    "viewLive": "Voir en Direct",
+    "viewCode": "Voir le Code"
+  },
+  "testimonials": {
+    "title": "Témoignages",
+    "subtitle": "Ce que les clients et les étudiants disent de leur collaboration avec moi"
+  },
+  "contact": {
+    "title": "Entrer en Contact",
+    "subtitle": "Vous avez un projet en tête ou besoin d'un tuteur de programmation ? Discutons de comment je peux vous aider.",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "send": "Envoyer Message",
+    "sending": "Envoi en cours...",
+    "success": "Message envoyé !",
+    "successMessage": "Merci de m'avoir contacté. Je vous répondrai bientôt.",
+    "error": "Le message n'a pas pu être envoyé. Veuillez réessayer.",
+    "connect": "Connectez-vous avec Moi",
+    "downloadResume": "Télécharger CV",
+    "validation": {
+      "allFieldsRequired": "Veuillez remplir tous les champs",
+      "invalidEmail": "Veuillez entrer une adresse email valide"
+    }
+  },
+  "footer": {
+    "quote": "\"Le code est comme l'humour. Quand vous devez l'expliquer, c'est mauvais.\"",
+    "author": "- Cory House",
+    "rights": "Tous droits réservés."
+  }
+}

@@ -1,0 +1,73 @@
+
+{
+  "meta": {
+    "title": "Mohammed Boussardi | Oracle APEX & Fintech Developer",
+    "description": "Software Developer specializing in Oracle APEX, PL/SQL, Python, C++, Java, JavaScript, and automation using UiPath. Expert in fintech systems and online programming tutor.",
+    "keywords": "software developer portfolio, online programming tutor, Oracle APEX developer, PL/SQL expert, Python tutor online, C++ programming help, freelance Java developer, SQL expert for fintech, automation developer with UiPath"
+  },
+  "header": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "hireMe": "Hire Me"
+  },
+  "hero": {
+    "title": "Mohammed Boussardi",
+    "subtitle": "Automation & Fintech Developer",
+    "description": "Specializing in Oracle APEX, PL/SQL, Python, and automation solutions for fintech systems.",
+    "hireMe": "Hire Me",
+    "viewProjects": "View Projects",
+    "downloadResume": "Download Resume"
+  },
+  "about": {
+    "title": "About Me",
+    "paragraph1": "I'm a passionate software developer with over 5 years of experience in creating efficient automation solutions and robust fintech applications. My expertise spans Oracle APEX, PL/SQL, Python, C++, Java, and JavaScript.",
+    "paragraph2": "Beyond development, I'm dedicated to sharing knowledge as an online programming tutor, helping others master the technologies I'm passionate about. My teaching approach combines practical experience with clear explanations to make complex concepts accessible.",
+    "paragraph3": "I believe in creating software that not only meets technical requirements but also delivers exceptional user experiences. Whether I'm building a financial system, automating processes with UiPath, or teaching programming fundamentals, I bring creativity, precision, and a problem-solving mindset to everything I do."
+  },
+  "skills": {
+    "title": "My Skills",
+    "subtitle": "A comprehensive set of technical skills and domain expertise I've developed throughout my career",
+    "categories": {
+      "programming": "Programming Languages",
+      "database": "Database & Oracle",
+      "automation": "Automation & DevOps",
+      "domain": "Domain Expertise"
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "Showcase of my recent projects and contributions in fintech and automation",
+    "viewLive": "View Live",
+    "viewCode": "View Code"
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "subtitle": "What clients and students say about working with me"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Have a project in mind or need a programming tutor? Let's discuss how I can help you.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent!",
+    "successMessage": "Thank you for reaching out. I'll get back to you soon.",
+    "error": "Message could not be sent. Please try again.",
+    "connect": "Connect With Me",
+    "downloadResume": "Download Resume",
+    "validation": {
+      "allFieldsRequired": "Please fill in all fields",
+      "invalidEmail": "Please enter a valid email address"
+    }
+  },
+  "footer": {
+    "quote": "\"Code is like humor. When you have to explain it, it's bad.\"",
+    "author": "- Cory House",
+    "rights": "All rights reserved."
+  }
+}

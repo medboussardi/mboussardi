@@ -1,0 +1,73 @@
+
+{
+  "meta": {
+    "title": "Mohammed Boussardi | Desarrollador de Oracle APEX y Fintech",
+    "description": "Desarrollador de software especializado en Oracle APEX, PL/SQL, Python, C++, Java, JavaScript y automatización con UiPath. Experto en sistemas fintech y tutor de programación en línea.",
+    "keywords": "portafolio de desarrollador de software, tutor de programación en línea, desarrollador Oracle APEX, experto en PL/SQL, tutor de Python en línea, ayuda con programación C++, desarrollador Java freelance, experto en SQL para fintech, desarrollador de automatización con UiPath"
+  },
+  "header": {
+    "about": "Sobre Mí",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "testimonials": "Testimonios",
+    "contact": "Contacto",
+    "hireMe": "Contrátame"
+  },
+  "hero": {
+    "title": "Mohammed Boussardi",
+    "subtitle": "Desarrollador de Automatización y Fintech",
+    "description": "Especializado en Oracle APEX, PL/SQL, Python y soluciones de automatización para sistemas fintech.",
+    "hireMe": "Contrátame",
+    "viewProjects": "Ver Proyectos",
+    "downloadResume": "Descargar CV"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "paragraph1": "Soy un desarrollador de software apasionado con más de 5 años de experiencia en la creación de soluciones de automatización eficientes y aplicaciones fintech robustas. Mi experiencia abarca Oracle APEX, PL/SQL, Python, C++, Java y JavaScript.",
+    "paragraph2": "Más allá del desarrollo, me dedico a compartir conocimientos como tutor de programación en línea, ayudando a otros a dominar las tecnologías que me apasionan. Mi enfoque de enseñanza combina experiencia práctica con explicaciones claras para hacer accesibles conceptos complejos.",
+    "paragraph3": "Creo en crear software que no solo cumpla con los requisitos técnicos, sino que también ofrezca experiencias de usuario excepcionales. Ya sea construyendo un sistema financiero, automatizando procesos con UiPath o enseñando fundamentos de programación, aporto creatividad, precisión y una mentalidad de resolución de problemas a todo lo que hago."
+  },
+  "skills": {
+    "title": "Mis Habilidades",
+    "subtitle": "Un conjunto completo de habilidades técnicas y experiencia en dominios que he desarrollado a lo largo de mi carrera",
+    "categories": {
+      "programming": "Lenguajes de Programación",
+      "database": "Base de Datos y Oracle",
+      "automation": "Automatización y DevOps",
+      "domain": "Experiencia en Dominios"
+    }
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "subtitle": "Muestra de mis proyectos recientes y contribuciones en fintech y automatización",
+    "viewLive": "Ver en Vivo",
+    "viewCode": "Ver Código"
+  },
+  "testimonials": {
+    "title": "Testimonios",
+    "subtitle": "Lo que dicen los clientes y estudiantes sobre trabajar conmigo"
+  },
+  "contact": {
+    "title": "Ponte en Contacto",
+    "subtitle": "¿Tienes un proyecto en mente o necesitas un tutor de programación? Hablemos de cómo puedo ayudarte.",
+    "name": "Nombre",
+    "email": "Email",
+    "message": "Mensaje",
+    "send": "Enviar Mensaje",
+    "sending": "Enviando...",
+    "success": "¡Mensaje enviado!",
+    "successMessage": "Gracias por contactarme. Te responderé pronto.",
+    "error": "No se pudo enviar el mensaje. Por favor, inténtalo de nuevo.",
+    "connect": "Conéctate Conmigo",
+    "downloadResume": "Descargar CV",
+    "validation": {
+      "allFieldsRequired": "Por favor completa todos los campos",
+      "invalidEmail": "Por favor ingresa una dirección de correo electrónico válida"
+    }
+  },
+  "footer": {
+    "quote": "\"El código es como el humor. Cuando tienes que explicarlo, es malo.\"",
+    "author": "- Cory House",
+    "rights": "Todos los derechos reservados."
+  }
+}
