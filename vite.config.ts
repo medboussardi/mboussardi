@@ -7,7 +7,7 @@ import { componentTagger } from "lovable-tagger";
 export default defineConfig(({ mode }) => ({
   base: "/mboussardi/",
   server: {
-    host: "localhost",
+    host: "::",
     port: 8080,
   },
   plugins: [
