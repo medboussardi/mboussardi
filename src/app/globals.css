@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand Colors */
+  --color-navy-50: #f0f3f8;
+  --color-navy-100: #dce3ef;
+  --color-navy-200: #b9c7df;
+  --color-navy-300: #8da3c8;
+  --color-navy-400: #6580b0;
+  --color-navy-500: #4a6491;
+  --color-navy-600: #3a4f75;
+  --color-navy-700: #2d3d5a;
+  --color-navy-800: #1e2a40;
+  --color-navy-900: #0f1724;
+  --color-navy-950: #080c14;
+
+  --color-gold-50: #faf8f0;
+  --color-gold-100: #f2edd8;
+  --color-gold-200: #e5dbb1;
+  --color-gold-300: #d4c484;
+  --color-gold-400: #c4ad5c;
+  --color-gold-500: #b49a3e;
+  --color-gold-600: #977d30;
+  --color-gold-700: #7a6328;
+  --color-gold-800: #5c4a1e;
+  --color-gold-900: #3d3114;
+
+  --color-slate-50: #f8f9fb;
+  --color-slate-100: #f1f3f6;
+  --color-slate-200: #e2e6ed;
+  --color-slate-300: #c8cfd9;
+  --color-slate-400: #9aa5b4;
+  --color-slate-500: #6b7a8d;
+  --color-slate-600: #4d5b6a;
+  --color-slate-700: #3a4654;
+  --color-slate-800: #2a333e;
+  --color-slate-900: #1a2029;
+
+  /* Font families */
+  --font-heading: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-arabic: 'IBM Plex Sans Arabic', 'Noto Sans Arabic', system-ui, sans-serif;
+
+  /* Animations */
+  --animate-fade-up: fade-up 0.6s ease-out forwards;
+  --animate-fade-in: fade-in 0.4s ease-out forwards;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-slate-800);
+  background-color: #ffffff;
+}
+
+/* RTL Support */
+[dir="rtl"] body {
+  font-family: var(--font-arabic);
+}
+
+[dir="rtl"] h1,
+[dir="rtl"] h2,
+[dir="rtl"] h3,
+[dir="rtl"] h4,
+[dir="rtl"] h5,
+[dir="rtl"] h6 {
+  font-family: var(--font-arabic);
+}
+
+/* Selection */
+::selection {
+  background-color: var(--color-navy-200);
+  color: var(--color-navy-900);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-slate-100);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-slate-300);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-slate-400);
+}
