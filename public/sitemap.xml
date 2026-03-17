@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://mboussardi.ma/fr</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mboussardi.ma/fr" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mboussardi.ma/en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://mboussardi.ma/es" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mboussardi.ma/ar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mboussardi.ma/fr" />
+    <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://mboussardi.ma/en</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mboussardi.ma/fr" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mboussardi.ma/en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://mboussardi.ma/es" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mboussardi.ma/ar" />
+    <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://mboussardi.ma/es</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mboussardi.ma/fr" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mboussardi.ma/en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://mboussardi.ma/es" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mboussardi.ma/ar" />
+    <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://mboussardi.ma/ar</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mboussardi.ma/fr" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mboussardi.ma/en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://mboussardi.ma/es" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mboussardi.ma/ar" />
+    <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://mboussardi.ma/fr/experience</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mboussardi.ma/fr/experience" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mboussardi.ma/en/experience" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://mboussardi.ma/es/experience" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mboussardi.ma/ar/experience" />
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://mboussardi.ma/en/experience</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mboussardi.ma/fr/experience" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mboussardi.ma/en/experience" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://mboussardi.ma/es/experience" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mboussardi.ma/ar/experience" />
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://mboussardi.ma/fr/skills</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mboussardi.ma/fr/skills" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mboussardi.ma/en/skills" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://mboussardi.ma/es/skills" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mboussardi.ma/ar/skills" />
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://mboussardi.ma/en/skills</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mboussardi.ma/fr/skills" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mboussardi.ma/en/skills" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://mboussardi.ma/es/skills" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mboussardi.ma/ar/skills" />
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://mboussardi.ma/fr/certifications</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mboussardi.ma/fr/certifications" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mboussardi.ma/en/certifications" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://mboussardi.ma/es/certifications" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mboussardi.ma/ar/certifications" />
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://mboussardi.ma/en/certifications</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mboussardi.ma/fr/certifications" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mboussardi.ma/en/certifications" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://mboussardi.ma/es/certifications" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mboussardi.ma/ar/certifications" />
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://mboussardi.ma/fr/contact</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mboussardi.ma/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mboussardi.ma/en/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://mboussardi.ma/es/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mboussardi.ma/ar/contact" />
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://mboussardi.ma/en/contact</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mboussardi.ma/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mboussardi.ma/en/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://mboussardi.ma/es/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mboussardi.ma/ar/contact" />
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+</urlset>
