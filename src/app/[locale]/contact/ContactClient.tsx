@@ -1,11 +1,13 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import AnimatedSection from '@/components/ui/AnimatedSection';
 import SectionHeading from '@/components/ui/SectionHeading';
 
 export default function ContactClient() {
   const t = useTranslations('contact');
+  const locale = useLocale();
+  const cvFile = locale === 'fr' ? '/Mohammed_Boussardi_CV_FR.pdf' : '/Mohammed_Boussardi_CV_EN.pdf';
 
   return (
     <div className="pt-24 pb-16">
@@ -56,7 +58,7 @@ export default function ContactClient() {
               </div>
 
               <a
-                href="/Mohammed_Boussardi_CV.pdf"
+                href={cvFile}
                 download
                 className="flex items-center justify-center gap-2 w-full px-6 py-3.5 border border-navy-200 text-navy-900 text-sm font-medium rounded-lg hover:bg-navy-50 transition-colors"
               >

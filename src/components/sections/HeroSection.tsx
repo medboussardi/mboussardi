@@ -1,11 +1,13 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import { motion } from 'framer-motion';
 
 export default function HeroSection() {
   const t = useTranslations('hero');
+  const locale = useLocale();
+  const cvFile = locale === 'fr' ? '/Mohammed_Boussardi_CV_FR.pdf' : '/Mohammed_Boussardi_CV_EN.pdf';
 
   return (
     <section className="relative min-h-[90vh] flex items-center overflow-hidden">
@@ -86,7 +88,7 @@ export default function HeroSection() {
                 {t('cta_contact')}
               </Link>
               <a
-                href="/Mohammed_Boussardi_CV.pdf"
+                href={cvFile}
                 download
                 className="inline-flex items-center px-7 py-3.5 text-gold-700 text-sm font-medium hover:text-gold-800 transition-colors duration-300"
               >
