@@ -5,8 +5,6 @@ import { routing } from '@/i18n/routing';
 import { isRtl } from '@/i18n/config';
 import type { Locale } from '@/i18n/config';
 import type { Metadata } from 'next';
-import Header from '@/components/layout/Header';
-import Footer from '@/components/layout/Footer';
 import HtmlLangSetter from '@/components/ui/HtmlLangSetter';
 import { buildMetadata, BASE_URL } from '@/lib/seo';
 
@@ -108,9 +106,7 @@ export default async function LocaleLayout({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <NextIntlClientProvider messages={messages}>
-        <Header />
-        <main>{children}</main>
-        <Footer />
+        {children}
       </NextIntlClientProvider>
     </>
   );
