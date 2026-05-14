@@ -317,7 +317,7 @@ export default function MinimalPage() {
           className="flex flex-col sm:flex-row gap-3"
         >
           <a
-            href="/Mohammed_Boussardi_CV_EN.pdf"
+            href="/Mohammed_B_EN.pdf"
             download
             className="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl text-sm font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-0.5 hover:shadow-xl"
             style={{ backgroundColor: '#0f1724' }}
@@ -328,7 +328,7 @@ export default function MinimalPage() {
             Resume — EN
           </a>
           <a
-            href="/Mohammed_Boussardi_CV_FR.pdf"
+            href="/Mohammed_B_FR.pdf"
             download
             className="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-xl text-sm font-semibold transition-all duration-300 hover:-translate-y-0.5"
             style={{ border: '2px solid #0f1724', color: '#0f1724', backgroundColor: 'transparent' }}
